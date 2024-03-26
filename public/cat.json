@@ -1,0 +1,131 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "name": "Haddock",
+        "recipe": "Chargrilled fresh ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "salads",
+        "price": 14.7
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "name": "Pepperoni Pizza",
+        "recipe": "Di Napoles",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "pizzas",
+        "price": 14.7
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7c",
+        "name": "Escalope de Veau",
+        "recipe": "Roasted duck ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "burgers",
+        "price": 14.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee88",
+        "name": "Escalope de Veau",
+        "recipe": "Pan roasted ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "combos",
+        "price": 12.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7a",
+        "name": "Pepperoni Pizza",
+        "recipe": "Di Napoles",
+        "image": "https://i.postimg.cc/4nCRr4jw/p-2.png",
+        "category": "pizzas",
+        "price": 14.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8c",
+        "name": "Escalope de Veau",
+        "recipe": "Pan roasted ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "combos",
+        "price": 12.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee94",
+        "name": "Vegetarian Pizza",
+        "recipe": "Cosa di Mario",
+        "image": "https://i.postimg.cc/MZgcW7S3/p-3.png",
+        "category": "pizzas",
+        "price": 12.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee9e",
+        "name": "Breton Fish Stew",
+        "recipe": "Chargrilled chicken ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "burgers",
+        "price": 12.9
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea6",
+        "name": "Walnut Salad",
+        "recipe": "Pan roasted ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "salads",
+        "price": 13.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaf",
+        "name": "Escalope de Veau",
+        "recipe": "Pan roasted ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "combos",
+        "price": 12.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee89",
+        "name": "Mediterranean Pizza",
+        "recipe": "Milano",
+        "image": "https://i.postimg.cc/gcxXFMf6/p-4.png",
+        "category": "pizzas",
+        "price": 13.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8a",
+        "name": "Escalope de Veau",
+        "recipe": "Pan roasted ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "burgers",
+        "price": 12.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee96",
+        "name": "Fish Parmentier",
+        "recipe": "Sautéed breaded ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "salads",
+        "price": 9.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee81",
+        "name": "Tuna Niçoise",
+        "recipe": "Warm goats ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "combos",
+        "price": 10.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee84",
+        "name": "Roast Duck Breast",
+        "recipe": "Roasted duck ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "salads",
+        "price": 14.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea5",
+        "name": "Fish Parmentier",
+        "recipe": "Sautéed breaded ",
+        "image": "https://i.postimg.cc/V6V8WWRx/p-1.png",
+        "category": "burgers",
+        "price": 9.5
+    }
+    
+]

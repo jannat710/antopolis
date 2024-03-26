@@ -1,0 +1,37 @@
+.footer-section {
+    background-color: #F72D57;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    max-width: 1280px;
+    margin: auto;   
+}
+
+.f-col-one {
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.f-col {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+
+}
+
+.f-icon {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+
+/* mobile devices */
+@media screen and (max-width:623px) {
+
+    .f-col {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+    }
+}

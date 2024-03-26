@@ -1,0 +1,28 @@
+.cat-section {
+    text-align: center;
+    max-width: 72rem;
+    margin: auto;
+   
+  }
+.text-center {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.order-card{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: max-content;
+   
+}
+/* mobile devices */
+@media screen and (max-width:623px) {
+    .text-center {
+        font-size: 1rem; 
+    }
+    .order-card{
+        flex-direction: column;
+    }
+}
