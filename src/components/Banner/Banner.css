@@ -1,0 +1,87 @@
+section {
+    margin: 100px auto 0;
+    max-width: 1400px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: #3F3F3F;
+    padding: 4rem;
+
+}
+
+.description {
+    width: 50%;
+}
+
+.description>h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.description>p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+span {
+    color: #F72D57;
+}
+
+.image {
+    width: 50%;
+    transform: rotate(-59.69deg);
+}
+
+.image img {
+    width: 100%;
+    background-image: url('../../assets/splash-food.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(120.31deg);
+
+}
+
+/* mobile devices */
+@media screen and (max-width:623px) {
+
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description>h1 {
+        font-size: 2rem;
+    }
+}
