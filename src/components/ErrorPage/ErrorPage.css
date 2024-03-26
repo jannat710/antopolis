@@ -1,0 +1,28 @@
+.error-container {
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    text-align: center;
+  }
+  
+  .error-container h1 {
+    font-size: 1.5rem; 
+    font-weight: bold;
+  }
+  
+  .error-container p {
+    font-size: 1rem; 
+    font-weight: normal;
+    padding-top: 5px;
+  }
+  
+  .error-container button {
+    padding: 0.5rem 1rem; 
+    background-color: #F72D57; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; 
+  }

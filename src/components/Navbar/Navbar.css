@@ -1,0 +1,58 @@
+.nav-section {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.nav-logo {
+    color: #F72D57;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-item {
+    color: #3f3f3f;
+    text-decoration: none;
+}
+
+.nav-item.active {
+    color: #FF444A;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-item-cart {
+    font-size: 1.2rem;
+}
+.signup-button{
+    background-color: #F72D57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+  }
