@@ -1,12 +1,16 @@
+
 .nav-section {
     max-width: 1280px;
     margin: auto;
+    background-color: #FFFFFF;
+    padding: 1rem;
 }
 
 .nav-logo {
     color: #F72D57;
     font-style: italic;
     font-weight: 800;
+    margin-left: 1rem;
 }
 
 .nav-container {
@@ -22,10 +26,15 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    list-style: none;
 }
 
-li {
-    list-style: none;
+.nav-link li {
+    margin-right: 1rem;
+}
+
+.nav-link li:last-child {
+    margin-right: 0;
 }
 
 .nav-item {
@@ -41,8 +50,10 @@ li {
 
 .nav-item-cart {
     font-size: 1.2rem;
+    cursor: pointer;
 }
-.signup-button{
+
+.signup-button {
     background-color: #F72D57;
     color: white;
     border: none;
@@ -55,4 +66,43 @@ li {
     display: block;
     margin: 0 auto;
     text-decoration: none;
-  }
+}
+.menu-icon {
+    display: none; 
+    font-size: 1rem;
+}
+.nav-left{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+.signup-button{
+    display: list-item;
+}
+
+/* Media query for small devices */
+@media (max-width: 623px) {
+    .nav-link {
+        display: none;
+        background-color: #F72D57; 
+        padding: 1rem;
+    }
+
+    .show-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        display: contents;
+    }
+    .signup-button{
+        display: none;
+    }
+}
